@@ -1,0 +1,13 @@
+let country = {
+    name: "Netherlands",
+    population: 17.18
+}
+
+country.height = "6 feet" // add a new property called height thats just the string 6 feet
+
+console.log(country)
+console.log(country.height)
+
+delete country.height // delete it
+
+console.log(country)
